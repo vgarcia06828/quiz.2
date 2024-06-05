@@ -1,0 +1,88 @@
+
+body {
+  background-image: url("planet.gif");
+  width: 100%;
+  height: auto;
+  background-size: 100%; 
+  background-repeat: no-repeat;
+  
+}
+<div {
+  border-radius: 80px;
+  border: 2px solid white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 150px;
+  margin-left: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkblue;
+} 
+p {
+	text-align:center;
+	color: grey;
+}
+.error {color: grey;}
+h5{
+	color:grey;
+} 
+h2{
+	text-align: center;
+	color:grey;
+}
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: #788585;
+    font-size: 16px;
+    cursor: pointer, auto;
+}
+.container {
+    /*display: flex;
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    cursor: pointer, auto;
+	background-color: floralwhite; */
+	display: flex;
+  background-color: DodgerBlue;
+}
+/*.sidebar {
+    width: 170px;
+    background-color: #cbd6e2;
+    color: #424242;
+    padding: 20px;
+    cursor: pointer, auto;
+}*/
+.sidebar a {
+    color: #424242;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding: 5px 10px 5px 10px;
+    font-size: 16px;
+    cursor: pointer, auto;
+}
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+}
